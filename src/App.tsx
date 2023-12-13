@@ -5,6 +5,7 @@ import './App.css';
 import {Navbar} from "./view/Navbar/Navbar";
 import {MainContent} from "./view/MainContent/MainContent";
 import {BrowserRouter} from "react-router-dom";
+import {Footer} from "./view/Footer/Footer";
 
 function App() {
   return (
@@ -24,12 +25,10 @@ function App() {
       //     </a>
       //   </header>
       // </div>
-      //   <BrowserRouter>
-      //     <Navbar/>
-      //   </BrowserRouter>
       <BrowserRouter>
       <Navbar/>
       <MainContent/>
+          <Footer/>
       </BrowserRouter>
   );
 }

@@ -1,17 +1,20 @@
 import {Component, Fragment} from "react";
+// Leaves & Logo
 import herb1 from '../../assests/herb1.png';
 import herb2 from '../../assests/herb2.png';
 import herb3 from '../../assests/herb3.png';
 import herb4 from '../../assests/herb4.png';
 import herb5 from '../../assests/herb5.png';
-// import herb6 from '../../assests/herb6.png';
 import logo from '../../assests/Janet_Logos.png';
+// Banner
+import banner1 from '../../assests/banner1.png';
 
 
 export class MainContent extends Component {
     render() {
         return (
-            <div className="flex bg-[#DFE3D6]">
+            <div className="bg-[#DFE3D6]">
+            <div className="flex">
                 <div className="w-[60%] ml-10">
                 <div className="ml-48 animate-pulse">
                     <img className="h-40 ml-44" src={herb4} alt=""/>
@@ -41,16 +44,20 @@ export class MainContent extends Component {
                         <img className="h-36 invisible" src={herb3} alt=""/>
                     </div>
                 </div>
-                <div className="font-bold text-8xl font-serif mt-20">
+                <div className="text-8xl font-serif mt-20 ml-24">
                     <h1 className="-ml-24">Harmony of</h1>
                     <h1 className="text-[#00A24A]">HERBS.</h1>
                     <h1 className="-ml-24">Symphony of</h1>
                     <h1 className="text-[#00A24A]">BEAUTY.</h1>
 
-                    <div className="justify-between text-[#004D24] text-4xl mt-32 ml-5 font-mono">
+                    <div className="justify-between text-[#004D24] text-4xl mt-32 font-mono">
                         <h1>Explore Our Products</h1>
                         <button className="bg-[#A0C49D] w-32 rounded-xl ml-32 mt-4 text-[#004D24] shadow hover:shadow-emerald-950">↓</button>
                     </div>
+                </div>
+            </div>
+                <div>
+                    <img className="w-full p-20" src={banner1}/>
                 </div>
             </div>
         );
