@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {Link} from "react-router-dom";
 import searchIcon from '../../assests/search.png';
 import cartIcon from '../../assests/Shopping Cart.png';
 import userIcon from '../../assests/Customer.png';
@@ -10,9 +11,12 @@ export class Navbar extends Component {
             <div>
                 <div className="h-16 flex bg-[#A0C49D] justify-between">
                     <h1 className="text-3xl font-bold p-3 pl-3 text-[#004D24]">Janet Ayurveda</h1>
-                    <ul className="flex text-[#004D24] text-3xl ml-40">
-                        <li className="p-3">Home</li>
-                        <li className="p-3">Products</li>
+                    <ul className="flex text-[#004D24] text-3xl ml-40 mt-1">
+                        <li className="p-3">
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li className="p-3">
+                            <Link to="Products">Products</Link></li>
                         <li className="p-3">FAQs</li>
                         <li className="p-3">Contact</li>
                     </ul>
