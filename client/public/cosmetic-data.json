@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Cosmetic 1",
+    "price": "100",
+    "currency": "Rs.",
+    "image": "Cosmetic/cosmetic1.png"
+  },
+  {
+    "id": 2,
+    "name": "Cosmetic 2",
+    "price": "200",
+    "currency": "Rs.",
+    "image": "Cosmetic/cosmetic2.png"
+  },
+  {
+    "id": 3,
+    "name": "Cosmetic 3",
+    "price": "300",
+    "currency": "Rs.",
+    "image": "Cosmetic/cosmetic3.png"
+  },
+  {
+    "id": 4,
+    "name": "Cosmetic 4",
+    "price": "400",
+    "currency": "Rs.",
+    "image": "Cosmetic/cosmetic4.png"
+  },
+  {
+    "id": 5,
+    "name": "Cosmetic 5",
+    "price": "300",
+    "currency": "Rs.",
+    "image": "Cosmetic/cosmetic5.png"
+  }
+]

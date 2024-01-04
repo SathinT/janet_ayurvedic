@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "HairFall Rescue Bundle",
+    "price": "3,300",
+    "currency": "Rs.",
+    "image": "Bundles/bundle1.png"
+  },
+  {
+    "id": 2,
+    "name": "Hydration Booster Bundle",
+    "price": "1,999",
+    "currency": "Rs.",
+    "image": "Bundles/bundle2.png"
+  },
+  {
+    "id": 3,
+    "name": "Dandruff Care Bundle",
+    "price": "3,300",
+    "currency": "Rs.",
+    "image": "Bundles/bundle3.png"
+  },
+  {
+    "id": 4,
+    "name": "Brightening Bundle",
+    "price": "5,000",
+    "currency": "Rs.",
+    "image": "Bundles/bundle4.png"
+  },
+  {
+    "id": 5,
+    "name": "Dry & Frizzy Hair Care Bundle",
+    "price": "3,300",
+    "currency": "Rs.",
+    "image": "Bundles/bundle5.png"
+  },
+  {
+    "id": 6,
+    "name": "Spotless Glow Bundle",
+    "price": "5,450",
+    "currency": "Rs.",
+    "image": "Bundles/bundle6.png"
+  },
+  {
+    "id": 7,
+    "name": "Brightening Booster Bundle",
+    "price": "1,999",
+    "currency": "Rs.",
+    "image": "Bundles/bundle7.png"
+  },
+  {
+    "id": 8,
+    "name": "Glow Booster Bundle",
+    "price": "1,999",
+    "currency": "Rs.",
+    "image": "Bundles/bundle8.png"
+  },
+  {
+    "id": 9,
+    "name": "Advanced Glow Bundle",
+    "price": "5,500",
+    "currency": "Rs.",
+    "image": "Bundles/bundle9.png"
+  },
+  {
+    "id": 10,
+    "name": "Clear Skin Booster Bundle",
+    "price": "1,999",
+    "currency": "Rs.",
+    "image": "Bundles/bundle10.png"
+  }
+]

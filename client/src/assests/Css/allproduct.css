@@ -1,0 +1,12 @@
+#button1{
+    background-image: url("../bg1.jpg");
+    background-size: cover;
+}
+#button2{
+    background-image: url("../bg2.jpg");
+    background-size: cover;
+}
+#button3{
+    background-image: url("../bg3.jpg");
+    background-size: cover;
+}
