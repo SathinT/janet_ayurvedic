@@ -38,7 +38,7 @@ export class Navbar extends Component {
                                 <button
                                     type="submit"
                                     aria-label="Submit"
-                                    className="w-10 ml-2 flex h-full items-center justify-center rounded-3xl bg-green-100 text-white transition hover:bg-[#5E9D59]"
+                                    className="w-10 absolute flex h-full items-center justify-center rounded-3xl bg-green-100 text-white transition hover:bg-[#5E9D59]"
                                 >
                                     <img src={searchIcon}/>
                                 </button>
@@ -47,8 +47,8 @@ export class Navbar extends Component {
 
                             <div className="text-green-900">
                                 <Select IconComponent={Account}>
-                                    <option>Ten</option>
-                                    <option>Twenty</option>
+                                    <option>LogIn</option>
+                                    <option>Register</option>
                                 </Select>
                             </div>
                             <button className="hover:bg-green-100">
